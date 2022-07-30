@@ -1,0 +1,170 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #dee2e6;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+    --bs-border-radius: 0.375rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 0.5rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-2xl: 2rem;
+    --bs-border-radius-pill: 50rem;
+    --bs-link-color: #0d6efd;
+    --bs-link-hover-color: #0a58ca;
+    --bs-code-color: #d63384;
+    --bs-highlight-bg: #fff3cd;
+}
+
+/* * {
+    border: solid 1px black;
+} */
+.border-line {
+    border-bottom: 1px solid var(--bs-gray-500);
+    width: 90%;
+    margin: auto;
+}
+body {
+    height: 80vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.center {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1.5em;
+}
+.background-img {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    width: 100%;
+    height: 80%;
+}
+.main-div {
+    width: 100%;
+    height: 80%;
+    
+}
+.main {
+    width: 30%;
+    height: 60%;
+    margin: 5em auto 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--bs-body-bg);
+}
+.block {
+    display: block;
+    padding-top: .6em;
+    text-decoration: none;
+}
+.form {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.checkbox {
+    padding: 10px 0;
+    color: var(--bs-gray-600);
+}
+.right {
+    float: right;
+}
+#username, #password {
+    width: 100%;
+    color: var(--bs-gray-600);
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-color: var(--bs-gray-300);
+}
+#password:not(input) {
+    padding-top: 2em;
+}
+.btn {
+    padding: 10px 0;
+    width: 100%;
+    background-color: var(--bs-primary);
+    color: var(--bs-body-bg);
+}
+.info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: smaller;
+    column-gap: .9em;
+}
+h6 {
+    text-align: center;
+    color: var(--bs-gray-600);
+}
+h6 > a {
+    font-size: 1.3em;
+    padding: 0 10px;
+}
+h6 > a:hover {
+    color: var(--bs-blue);
+}
+a:not(.block) {
+    color: var(--bs-gray-600);
+}
+.footer {
+    width: 100%;
+}
